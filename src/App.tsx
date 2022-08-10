@@ -1,13 +1,19 @@
-import Home from './components/Home'
-import NavScrollExample from './components/NavBar'
+import { Route, Routes } from 'react-router-dom';
+
+import NavScroll from './components/NavBar';
+import { Checkout } from './pages/Checkout';
+import { Home } from './pages/Home';
 
 function App() {
   return (
-    <div>
-      <NavScrollExample />
-      <Home />
-      
-    </div>
+    <>
+      <NavScroll />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="checkout" element={<Checkout />} />
+      </Routes>
+    </>
+
   );
 }
 

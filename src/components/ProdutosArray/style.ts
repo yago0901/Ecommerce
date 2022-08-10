@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
-export const Vitrini = styled.div`
-display: flex;
+
+export const ContainerProdutcts = styled.div`
+display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
 `

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { reduceEachLeadingCommentRange } from 'typescript'
+
 
 export const Conteiner = styled.div`
 height: 100%;

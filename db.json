@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Moleton Nike",
+      "description": "Moleton nike de auto performance.",
+      "img": "https://imgcentauro-a.akamaihd.net/900x900/957342BL/jaqueta-com-capuz-nike-df-hoodie-fz-fl-masculina-img.jpg",
+      "price": "299,00"
+    },
+    {
+      "id": 2,
+      "name": "Calça Nike",
+      "description": "Calça nike de auto performance.",
+      "img": "https://imgcentauro-a.akamaihd.net/900x900/957342BL/jaqueta-com-capuz-nike-df-hoodie-fz-fl-masculina-img.jpg",
+      "price": "299,00"
+    },
+    {
+      "id": 3,
+      "name": "Camiseta Nike",
+      "description": "Camiseta nike de auto performance.",
+      "img": "https://imgcentauro-a.akamaihd.net/900x900/957342BL/jaqueta-com-capuz-nike-df-hoodie-fz-fl-masculina-img.jpg",
+      "price": "299,00"
+    },
+    {
+      "id": 4,
+      "name": "Camiseta Time Futebol",
+      "description": "Camiseta time de futebol nike de auto performance.",
+      "img": "https://imgcentauro-a.akamaihd.net/900x900/957342BL/jaqueta-com-capuz-nike-df-hoodie-fz-fl-masculina-img.jpg",
+      "price": "299,00"
+    },
+    {
+      "id": 5,
+      "name": "Moleton Nike",
+      "description": "Moleton nike de auto performance.",
+      "img": "https://imgcentauro-a.akamaihd.net/900x900/957342BL/jaqueta-com-capuz-nike-df-hoodie-fz-fl-masculina-img.jpg",
+      "price": "299,00"
+    },
+    {
+      "id": 6,
+      "name": "Moleton Nike",
+      "description": "Moleton nike de auto performance.",
+      "img": "https://imgcentauro-a.akamaihd.net/900x900/957342BL/jaqueta-com-capuz-nike-df-hoodie-fz-fl-masculina-img.jpg",
+      "price": "299,00"
+    }
+  ]
+}
