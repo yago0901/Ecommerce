@@ -8,7 +8,7 @@ export default function ProdutosArray({ produtos }: { produtos: Produto[] }) {
       {
         produtos.map( ( index ) => {
           return (
-            <div key={index.id} className="card shadow p-3 mb-5 bg-body rounded" style={{ width: '14rem' }}>
+            <div key={index.id} className="card shadow p-3 mb-5 bg-body rounded " style={{ width: '14rem' }}>
               <img className="card-img-top h-50 d-inline-block " src={index.img} alt="Card image cap" />
               <div className="card-body">
                 <h5 className="card-title">{index.name}</h5>
