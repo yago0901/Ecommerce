@@ -1,23 +1,28 @@
 export default function Sumarry() {
   return(
-    <div className="col-md-3 summary bg-secondary rounded position-relative">
-        <div><h5><b>Summary</b></h5></div>
+    <div className="col-md-3 summary bg-secondary rounded position-relative ">
+        <div><h5 className="text-center mt-3"><b>Car</b></h5></div>
         <hr/>
         <div className="row">
-            <div className="col" >ITEMS 3</div>
-            <div className="col text-right">&euro; 132.00</div>
+            <div className="col text-center" >ITEMS</div>
+            <div className="col text-right">VALOR</div>
+        </div> <br/>
+        <div className="row">
+            <div className="col text-center" >Item 1</div>
+            <div className="col text-right">R$99,99</div>
         </div>
-        <form>
-            <p>SHIPPING</p>
-            <select><option className="text-muted">Standard-Delivery- &euro;5.00</option></select>
-            <p>GIVE CODE</p>
-            <input id="code" placeholder="Enter your code"/>
-        </form>
-        <div className="row" >
-            <div className="col">TOTAL PRICE</div>
-            <div className="col text-right">&euro; 137.00</div>
+        <div className="row">
+            <div className="col text-center" >Item 2</div>
+            <div className="col text-right">R$99,99</div>
+        </div> <br/>
+        <div><h5 className="text-center mt-3"><b>TOTAL</b></h5></div>
+        <div className="row">
+            <div className="col text-center" >VALOR</div>
+            <div className="col text-right">R$199,98</div>
+        </div> <br/>
+        <div className="d-flex justify-content-center">
+          <button className="btn btn-primary ">CHECKOUT</button>
         </div>
-        <button className="btn">CHECKOUT</button>
     </div>
   )
 

@@ -14,3 +14,6 @@ width:100%
 export const BuscaProdutos = styled.div`
 display: flex;
 `
+export const CartText = styled.div`
+display: flex;
+`
